@@ -2,11 +2,17 @@
 ## How to use the tester:
 Make your project<br>
 Simply clone the repository in your project folder<br>
-```git clone https://github.com/samtvn/so_long_tester.git```<br>
+```
+git clone https://github.com/samtvn/so_long_tester.git
+```
 Launch the tester from your project directory<br>
-```./so_long_tester/test_broken.sh```<br>
+```
+./so_long_tester/test_broken.sh
+```
 One liner:<br>
-```make fclean && make && [ -d so_long_tester ] || git clone https://github.com/samtvn/so_long_tester.git && ./so_long_tester/test_broken.sh```<br>
+```
+make fclean && make && [ -d so_long_tester ] || git clone https://github.com/samtvn/so_long_tester.git && ./so_long_tester/test_broken.sh
+```
 ## How to interpret the output
 No Valgrind output means noleaks!<br>
 If there are Valgrind outputs, then it is easy. There are leaks.<br>

@@ -19,7 +19,10 @@ If there are Valgrind outputs, then it is easy. There are leaks.<br>
 You should check that it is the user's fault and not the minilibx.<br>
 Normally, it should be the user's fault.<br>
 <br>
-<span style="color:red">red</span> does not mean it is KO, I just chose the output to be red. You should check each error output to ensure the user specifies the nature of the error as required by the subject.<br>
+```diff
+- red does not mean it is KO.
+```
+ I just chose the output to be red. You should check each error output to ensure the user specifies the nature of the error as required by the subject.<br>
 <br>
 The three last tests require you to press ESC, the X button and then to test the game normally.<br>
 You should certainly do the ESC and X tests again by yourself to check after taking collectibles too.
